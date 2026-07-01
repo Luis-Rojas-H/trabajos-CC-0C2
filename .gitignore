@@ -1,0 +1,39 @@
+# =========================
+# Jupyter Notebooks
+# =========================
+# Ignora todas las carpetas de autoguardado de Jupyter en cualquier directorio
+.ipynb_checkpoints/
+
+# =========================
+# Python
+# =========================
+# Archivos compilados que Python genera automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales (por si llegas a crear uno en el futuro para tus requirements)
+venv/
+.venv/
+env/
+
+# =========================
+# Variables de Entorno y Secretos
+# =========================
+# NUNCA se deben subir contraseñas o tokens (por si usas un archivo .env después)
+.env
+
+# =========================
+# Editores de Código
+# =========================
+# Configuraciones locales y cachés de tu editor (como lo que vimos de Cursor/VS Code)
+.cursor/
+.vscode/
+
+# =========================
+# Sistema Operativo
+# =========================
+# Archivos basura ocultos que genera Windows o macOS al abrir carpetas
+Thumbs.db
+.DS_Store
